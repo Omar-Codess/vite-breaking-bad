@@ -6,7 +6,9 @@
     <button class="p-absolute">Select category</button>
     <div class="app-wrapper p-relative">
         <div class="container">
-
+            <div class="results-bar">
+                <p>Found 62 characters</p>
+            </div>
         </div>
     </div>
 
@@ -14,7 +16,7 @@
 
 <style>
     button{
-        left: 90px;
+        left: 180px;
         bottom: 450px;
     }
 
@@ -39,5 +41,17 @@
         border: 1px solid;
         width: 80%;
         height: 70%;
+        background-color: white;
+    }
+
+    .results-bar{
+        color: white;
+        height: 50px;
+        width: 90%;
+        background-color: #212529;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1em;
     }
 </style>
