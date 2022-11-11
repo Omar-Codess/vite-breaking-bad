@@ -9,9 +9,25 @@
             <div class="results-bar">
                 <p>Found 62 characters</p>
             </div>
+            <div class="cards">
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+                <div class="card">
+
+                </div>
+            </div>
         </div>
     </div>
-
 </template>
 
 <style>
@@ -34,7 +50,6 @@
         align-items: flex-end;
         width: 100%;
         height: 100vh;
-        
     }
 
     .container{
@@ -53,5 +68,18 @@
         align-items: center;
         margin: 0 auto;
         margin-top: 1em;
+    }
+
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card{
+        height: 300px;
+        width: calc(100% / 5 - 20px);
+        border: 1px solid;
+        margin-top: 20px;
     }
 </style>
